@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import defaultImg from './defaultImg.jpg';
-import styles from './AnimalSlider.module.css';
+import styles from './AnimalSlider.module.sass';
 
 class AmimalSlider extends Component {
   constructor(props) {

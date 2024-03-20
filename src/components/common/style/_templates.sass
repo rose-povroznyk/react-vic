@@ -1,0 +1,10 @@
+%flex
+    display: flex
+    justify-content: center
+    align-items: center
+    
+@mixin flex-container($jc:center, $ai:center, $fd:row)
+    display: flex
+    justify-content: $jc
+    align-items: $ai
+    flex-direction: $fd    
